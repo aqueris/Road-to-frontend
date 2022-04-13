@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+
+    </head>
+
+    <body>
+        <div>
+            <form action="#" method="post" enctype="multipart/form-data">
+                <div>
+                    <p>Введите Ваше имя</p>
+                    <input placeholder="Иван" tabindex="1" name="username" type="text"/>
+                </div>
+                <div>
+                    <p>Введите пароль</p>
+                    <input tabindex="2" name="userpass" type="password">
+                </div>
+                <div>
+                    <p>Введите Ваш номер телефона</p>
+                    <input placeholder="88005553535" tabindex="3" name="userphone" type="tel">
+                </div>
+                <div>
+                    <p>Выберите из списка цвет, который вам больше всего нравится</p>
+                    <select tabindex="4" name="color">
+                        <option value="black">Чёрный</option>
+                        <option value="white">Белый</option>
+                        <option value="blue">Синий</option>
+                        <option value="red">Красный</option>
+                        <option value="yellow">Жёлтый</option>
+                        <option value="green">Зелёный</option>
+                        <option selected value="default">Цвет не выбран</option>
+                    </select>
+                </div>
+                <div>
+                    <p>Выберите марку, которая вам больше нравится</p>
+                    <div>
+                        <input tabindex="5" type="radio" name="car" value="bmw"/> BMW
+                    </div>
+                    <div>
+                        <input tabindex="6" type="radio" name="car" value="mercedes"/> Mercedes
+                    </div>
+                    <div>
+                        <input tabindex="7" type="radio" name="car" value="audi"/> Audi
+                    </div>
+                    <div>
+                        <input tabindex="8" type="radio" name="car" value="porsche"/> Porsche
+                    </div>
+                    <div>
+                        <input tabindex="9" type="radio" name="car" value="lada"/> Lada
+                    </div>
+                    <div>
+                        <input tabindex="10" checked type="radio" name="car" value="default"/> Марка не выбрана
+                    </div>
+                </div>
+                <div>
+                    <p>Чёпачём</p>
+                    <div>
+                        <input tabindex="11" checked type="checkbox" name="default" value="yes"> да ничо
+                    </div>
+                    <div>
+                        <input tabindex="12" type="checkbox" name="norm" value="yes"> норм
+                    </div>
+                    <div>
+                        <input tabindex="13" type="checkbox" name="neoch" value="yes"> так себе
+                    </div>
+                    <div>
+                        <input tabindex="14" type="checkbox" name="ploha" value="yes"> плох чот(
+                    </div>
+                    <div>
+                        <input tabindex="15" disabled type="checkbox" name="zaebis" value="yes"> всё ахуена
+                    </div>
+                </div>
+                <div>
+                    <p>Как житуха расскажи</p>
+                    <textarea tabindex="16" name="text"></textarea>
+                </div>
+                <div>
+                    <p>А скинь фото члена</p>
+                    <input tabindex="17" type="file">
+                </div>
+                <div>
+                    <p>Всё, закончил?</p>
+                    <button tabindex="18" type="submit">Да держи</button>
+                    <button tabindex="19" type="reset">Всё хуйня давай по-новой</button>
+                </div>
+            </form>
+        </div>
+    </body>
+
+</html>
