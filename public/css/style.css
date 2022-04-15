@@ -1,0 +1,62 @@
+/* ClearFix */
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-size: 21px;
+    color: white;
+}
+
+/*  */
+#wrapper {
+    height: 100%;
+    width: 100%;
+    /* padding: 0.7rem; */
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+#main-container {
+    background-position: center;
+    background-image: url(https://oboi247.ru/img/post/49/0.jpg);
+    height: 100%;
+    width: 100%;
+}
+
+#header {
+    height: auto;
+    width: auto;
+}
+
+#nav {
+    height: auto;
+    width: auto;
+}
+
+#main-menu li {
+    display: inline-flex;
+    height: auto;
+    width: auto;
+}
+
+#news {
+    height: auto;
+    width: auto;
+}
+
+#photos {
+    height: auto;
+    width: auto;
+}
+
+#fetures {
+    height: auto;
+    width: auto;
+}
+
+#footer {
+    height: auto;
+    width: auto;
+}
