@@ -37,3 +37,69 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+.mainMenu {
+    margin: 10px 15px 10px 15px;
+    padding: 20px 5px 20px 5px;
+    text-align: center;
+    /* background-color: rgba(54, 54, 54, 0.329); */
+    background: radial-gradient(35% 45%, rgba(54, 54, 54, 0.329),rgba(0, 0, 0, 0));
+}
+
+.mainMenu li {
+    display: inline;
+    margin: 0px 5px 0px 5px;
+}
+
+.mainMenu a {
+    color: white;
+}
+
+.mainMenu li:after {
+    display: inline;
+    vertical-align: top;
+}
+
+.mainMenu li:first-child {padding-right: 7.81%;}
+
+.footBar {
+    position: absolute;
+    bottom: 2%;
+    left: 40%;
+    right: 40%;
+    margin: 10px 15px 10px 15px;
+    padding: 20px 5px 20px 5px;
+    text-align: center;
+    background: radial-gradient(50% 60%, rgba(54, 54, 54, 0.429),rgba(0, 0, 0, 0));
+}
+
+.footBar li {
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+    vertical-align: top;
+}
+
+
+
+.back {
+    background-color: #000000f1;
+    padding: 1%;
+    width: 100%;
+    height: 100%;
+}
+
+.mainBody {
+    background-position: center;
+    background-image: url(https://oboi247.ru/img/post/49/0.jpg);
+    background-color: rgba(54, 54, 54, 0.329);
+    height: 100%;
+    width: 100%;
+}
+
+.head {
+    background-color: rgba(228, 10, 10, 0);
+    padding-top: 10px;
+    height: 100%;
+    width: 100%;
+}
